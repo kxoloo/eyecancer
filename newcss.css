@@ -1,0 +1,28 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 9, 2017, 11:17:35 PM
+    Author     : Kutlu
+*/
+body{background-color: blue;
+     animation: image 0.4s infinite alternate;
+     -webkit-animation: image 0.4s infinite alternate;
+     -moz-animation: image 0.4s infinite alternate;
+}
+@keyframes image{
+    0% {
+        background-color: #ffff00;} /*sarı*/
+    20% {
+        background-color: #00ff00;} /*yeşil*/
+    40% {
+        background-color: #ff0066;} /*pempe*/
+    60% {
+        background-color: #0000ff;} /*mavi*/
+    80% {
+        background-color: #ff6600;} /*turuncu*/
+    100% {
+        background-color: #00ffff;} /*turkuaz*/
+}
